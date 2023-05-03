@@ -135,7 +135,7 @@ img {
     
 .container
 {
-    max-width: 768px;
+    width: 100%;
     }
 
  }
@@ -144,9 +144,8 @@ img {
 
  @media screen and (max-width: 480px)  {
     
-    .container
-    {
-        max-width: 480px;
+    .container{
+        width: 100%;
         }
     .row {
         flex-direction: column;
